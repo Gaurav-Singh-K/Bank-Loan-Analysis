@@ -43,8 +43,8 @@ The workbook takes a raw loan-book export (~37,000+ individual loan records) and
 
 1. Open the workbook and go to either dashboard sheet.
 2. Use the slicers to filter by dimensions like loan grade, term, or purpose.
+3. All charts and KPI cards update automatically since they're driven by PivotTables referencing the `Data` sheet.
+4. To refresh with new data: replace/append rows in the `Data` sheet, then right-click any PivotTable → **Refresh All**.
 
 ## Author
 Gaurav Singh
-4. All charts and KPI cards update automatically since they're driven by PivotTables referencing the `Data` sheet.
-5. To refresh with new data: replace/append rows in the `Data` sheet, then right-click any PivotTable → **Refresh All**.
